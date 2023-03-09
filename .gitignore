@@ -21,6 +21,8 @@ db-1678173085485.json
 db.json
 package-lock.json
 package.json
+
+
 /public
 .gitignore
 npm-debug.log*
