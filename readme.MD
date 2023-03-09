@@ -5,12 +5,14 @@ event you don't want to miss, e.t.c
 Technologies used:
 * `REACT`
 * `CSS`
+* `HTML`
+* `Javascript`
 
 
 ## Important links
 To clone project 
 ```
-git clone https://github.com/Martins-O/
+git clone https://github.com/Martins-O/Task_Tracker_App.git
 ```
 
 ### Developer & Engineer
