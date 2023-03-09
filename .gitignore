@@ -17,7 +17,12 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
+db-1678173085485.json
+db.json
+package-lock.json
+package.json
+/public
+.gitignore
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
