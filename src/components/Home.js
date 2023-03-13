@@ -19,14 +19,14 @@ const Home = () => {
   }, []);
 
   const fetchTasks = async () => {
-    const res = await fetch("http://localhost:9000/tasks");
+    const res = await fetch("http://localhost:9001/tasks");
     const data = await res.json();
 
     return data;
   };
 
   const fetchTask = async (id) => {
-    const res = await fetch(`http://localhost:9000/tasks/${id}`);
+    const res = await fetch(`http://localhost:9001/tasks/${id}`);
     const data = await res.json();
 
     return data;
@@ -36,7 +36,7 @@ const Home = () => {
     const taskToToggle = await fetchTask(id);
     const uodateTask = { ...taskToToggle, reminder: !taskToToggle.reminder };
 
-    const res = await fetch(`http://localhost:9000/tasks/${id}`, {
+    const res = await fetch(`http://localhost:9001/tasks/${id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json",
