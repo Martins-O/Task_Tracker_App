@@ -54,7 +54,7 @@ const Home = () => {
   };
 
   const deleteTask = async (id) => {
-    await fetch(`http://localhost:9000/tasks/${id}`, {
+    await fetch(`http://localhost:9001/tasks/${id}`, {
       method: "DELETE",
     });
 
@@ -62,7 +62,7 @@ const Home = () => {
   };
 
   const addTask = async (task) => {
-    const res = await fetch("http://localhost:9000/tasks", {
+    const res = await fetch("http://localhost:9001/tasks", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
